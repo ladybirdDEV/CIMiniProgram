@@ -1,0 +1,11 @@
+/* 
+  CIMiniProgram.strings
+  Pods
+
+  Created by daben on 2022/12/27.
+  
+*/
+
+"select_from_album" = "Album";
+"take_photo" = "Camera";
+"cancel" = "Cancel";
