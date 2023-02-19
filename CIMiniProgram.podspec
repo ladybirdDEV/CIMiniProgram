@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint CIMiniProgramSDK.podspec' to ensure this is a
+# Be sure to run `pod lib lint CIMiniProgram.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CIMiniProgramSDK'
-  s.version          = '0.1.64'
+  s.name             = 'CIMiniProgram'
+  s.version          = '0.1.65'
   s.summary          = 'A short description of CIMiniProgram.'
 
 # This description is used to generate tags and improve search results.
