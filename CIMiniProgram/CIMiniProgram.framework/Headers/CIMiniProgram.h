@@ -5,6 +5,8 @@
 //  Created by daben on 2023/2/20.
 //
 
+#import <Foundation/Foundation.h>
+
 #if __has_include(<CIMiniProgram/CIMiniProgram.h>)
 //! Project version number for CIMiniProgram.
 FOUNDATION_EXPORT double CIMiniProgramVersionNumber;
