@@ -1,0 +1,6 @@
+framework module CIMiniProgram {
+  umbrella header "CIMiniProgram.h"
+
+  export *
+  module * { export * }
+}

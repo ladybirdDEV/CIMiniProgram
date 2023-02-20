@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIMiniProgram'
-  s.version          = '0.1.65'
+  s.version          = '0.1.66'
   s.summary          = 'A short description of CIMiniProgram.'
 
 # This description is used to generate tags and improve search results.
@@ -31,20 +31,20 @@ TODO: Add long description of the pod here.
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
   
-  s.vendored_frameworks = "CIMiniProgram/CIMiniProgramSDK.framework"
+  s.vendored_frameworks = "CIMiniProgram/CIMiniProgram.framework"
   s.resource = ['CIMiniProgram/Assets/*']
 
-  s.dependency 'CINetworkingSDK'
-  s.dependency 'CICategoriesSDK'
-  s.dependency 'CIPhotoBrowserSDK'
-  s.dependency 'CICameraSDK'
-  s.dependency 'CIViewFileSDK'
-  s.dependency 'CIUDPSocketSDK'
-  s.dependency 'CIBluetoothSDK'
-  s.dependency 'CIOAuthSDK'
-  s.dependency 'CIPushSDK'
-  s.dependency 'CIPaySDK'
-  s.dependency 'CIShareSDK'
+  s.dependency 'CICamera'
+  s.dependency 'CICategories'
+  s.dependency 'CIViewFile'
+  s.dependency 'CIMPhotoBrowser'
+  s.dependency 'CINetworking'
+  s.dependency 'CIUDPSocket'
+  s.dependency 'CIBluetooth'
+  s.dependency 'CIOAuth'
+  s.dependency 'CIPush'
+  s.dependency 'CIPay'
+  s.dependency 'CIShare'
 
   s.dependency 'SSZipArchive', '2.4.3'
   s.dependency 'MJRefresh', '3.7.5'
